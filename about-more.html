@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn More about us </title>
+    <link rel="icon" href="./img/svg/about-us.svg" type="image/x-icon">
+</head>
+<body>
+    <style>
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+        }
+        .about-more {
+            display: block;
+            padding: 20px;
+            background-color: white;
+            color: #142335;
+            text-align: justify;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 1200px; 
+            margin: 0 auto;
+        }
+        .about-more h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        .highlight-green {
+            color: #36967E;
+        }     
+        .about-more p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 0 0 10px 0;
+            opacity: 0.8;
+            color: white;
+            text-align: left;
+        }
+        .box-row {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            gap: 20px;
+        }
+        .box1, .box2, .box3 {
+            padding: 20px;
+            color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            text-align: center;
+        }
+        .box1, .box2 {
+            width: 48%;
+        }
+        .box1 {
+            background-color: #F07D2E; 
+        }
+        .box2 {
+            background-color: #36967E;
+        }
+        .box3 {
+            background-color: #297fef; 
+            margin: 20px 0;
+        }
+        .box3 {
+            margin-left: auto;
+            margin-right: auto;
+            width: calc(100% - 40px); 
+        }
+        /* For tablets (max-width: 768px) */
+        @media (max-width: 768px) {
+            .about-more h1 {
+                font-size: 2rem;
+            }
+
+            .about-more p {
+                font-size: 1.1rem;
+            }
+
+            .box-row {
+                flex-direction: column;
+            }
+
+            .box1, .box2 {
+                width: 100%; 
+                margin-bottom: 20px;
+            }
+            .box1, .box2, .box3 {
+                width: calc(100% - 40px);
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        /* For smaller mobile devices (max-width: 480px) */
+        @media (max-width: 480px) {
+            .about-more h1 {
+                font-size: 1.8rem;
+            }
+
+            .about-more p {
+                font-size: 1rem;
+            }
+
+            .box1, .box2, .box3 {
+                padding: 15px; 
+            }
+
+
+            .box-row {
+                gap: 15px;
+            }
+
+
+            .box1 h2, .box2 h2, .box3 h2 {
+                font-size: 1.5rem;
+            }
+
+            .box1 p, .box2 p, .box3 p {
+                font-size: 1rem;
+            }
+
+            .box1, .box2, .box3 {
+                width: calc(100% - 30px); 
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    </style>
+
+    <section class="about-more">
+        <div class="about-more-left">
+            <h1>Who <span class="highlight-green">we are</span></h1>
+            <p style="color: black;">
+                With <span style="color: #F07D2E; font-size: 1.3em;">12+</span> years of experience in the renewable energy sector, 
+                <span style="color: #142335; font-weight: bold; font-size: 1.3em;">Odisha Solar Engineering Services</span> is dedicated to making clean energy accessible and affordable. 
+                We provide cutting-edge solar solutions that not only reduce energy costs but also contribute to a greener planet. 
+                Our expert team specializes in everything from solar panel installations to maintenance, offering tailored services for residential, commercial, and industrial projects. We are proud to play a key role in Odisha's journey towards sustainable energy
+            </p>
+            
+        </div>
+    
+        <div class="box-row">
+            <div class="box1">
+                <h2>Our Mission</h2>
+                <p class="black-text">To provide world class renewable energy services. solutions & technology locally as well as globally and contribute to the sustainability of our planet: and to be recognized for our high-quality products, services, and contribution to a sustainable life.</p>
+            </div>
+    
+            <div class="box2">
+                <h2>Our Vision</h2>
+                <p>Our vision is a world running on clean renewable energy; and to continuously improve & enhance our efficiency, quality and technology to serve our customers and provide all solar energy solutions under one roof.</p>
+            </div>
+        </div>
+    
+        <div class="box3">
+            <h2>The Odisha Solar Engineering Services</h2>
+            <p>Our Team members highly skilled and knowledgeable, equipped with the expertise needed to deliver top-notch energy solutions. Their deep understanding of solar technologies, combined with their ability to assess customers' unique energy needs, enables them to recommend the most efficient systems.</p>
+        </div>
+    </section>
+    
+</body>
+</html>
